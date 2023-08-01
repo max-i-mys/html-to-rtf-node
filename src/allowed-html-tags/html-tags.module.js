@@ -1,9 +1,9 @@
 module.exports = [
    {
       opening: 'b',
-      openingRtf: '{\\b',
+      openingRtf: '\\b',
       closing: '/b',
-      closingRtf: '}'
+      closingRtf: '\\b0'
    },
    {
       opening: 'br',
@@ -13,69 +13,69 @@ module.exports = [
    },
    {
       opening: 'center',
-      openingRtf: '{\\pard\\qr',
+      openingRtf: '\\pard\\qr',
       closing: '/center',
-      closingRtf: '\\par}'
+      closingRtf: '\\par'
    },
    {
       opening: 'div',
-      openingRtf: '{\\pard',
+      openingRtf: '\\pard',
       closing: '/div',
-      closingRtf: '\\sb70\\par}'
+      closingRtf: '\\sb70\\par'
    },
    {
       opening: 'em',
-      openingRtf: '{\\i',
+      openingRtf: '\\i',
       closing: '/em',
-      closingRtf: '}'
+      closingRtf: '\\i0'
    },
    {
       opening: 'font',
-      openingRtf: '{',
+      openingRtf: '',
       closing: '/font',
-      closingRtf: '}'
+      closingRtf: ''
    },
    {
       opening: 'h1',
-      openingRtf: '{\\pard',
+      openingRtf: '\\pard',
       closing: '/h1',
-      closingRtf: '\\sb70\\par}'
+      closingRtf: '\\sb70\\par'
    },
    {
       opening: 'h2',
-      openingRtf: '{\\pard',
+      openingRtf: '\\pard',
       closing: '/h2',
-      closingRtf: '\\sb70\\par}'
+      closingRtf: '\\sb70\\par'
    },
    {
       opening: 'h3',
-      openingRtf: '{\\pard',
+      openingRtf: '\\pard',
       closing: '/h3',
-      closingRtf: '\\sb70\\par}'
+      closingRtf: '\\sb70\\par'
    },
    {
       opening: 'h4',
-      openingRtf: '{\\pard',
+      openingRtf: '\\pard',
       closing: '/h4',
-      closingRtf: '\\sb70\\par}'
+      closingRtf: '\\sb70\\par'
    },
    {
       opening: 'h5',
-      openingRtf: '{\\pard',
+      openingRtf: '\\pard',
       closing: '/h5',
-      closingRtf: '\\sb70\\par}'
+      closingRtf: '\\sb70\\par'
    },
    {
       opening: 'h6',
-      openingRtf: '{\\pard',
+      openingRtf: '\\pard',
       closing: '/h6',
-      closingRtf: '\\sb70\\par}'
+      closingRtf: '\\sb70\\par'
    },
    {
       opening: 'i',
-      openingRtf: '{\\i',
+      openingRtf: '\\i',
       closing: '/i',
-      closingRtf: '}'
+      closingRtf: '\\i0'
    },
    {
       opening: 'li',
@@ -91,9 +91,9 @@ module.exports = [
    },
    {
       opening: 'p',
-      openingRtf: '{\\pard',
+      openingRtf: '\\pard',
       closing: '/p',
-      closingRtf: '\\sb70\\par}'
+      closingRtf: '\\sb70\\par'
    },
    {
       opening: 'ol',
@@ -103,33 +103,33 @@ module.exports = [
    },
    {
       opening: 's',
-      openingRtf: '{\\strike',
+      openingRtf: '\\strike',
       closing: '/s',
-      closingRtf: '}'
+      closingRtf: ''
    },
    {
       opening: 'span',
-      openingRtf: '{',
+      openingRtf: '',
       closing: '/span',
-      closingRtf: '}'
+      closingRtf: ''
    },
    {
       opening: 'sub',
-      openingRtf: '{\\sub',
+      openingRtf: '\\sub',
       closing: '/sub',
-      closingRtf: '}'
+      closingRtf: ''
    },
    {
       opening: 'sup',
-      openingRtf: '{\\super',
+      openingRtf: '\\super',
       closing: '/sup',
-      closingRtf: '}'
+      closingRtf: ''
    },
    {
       opening: 'strong',
-      openingRtf: '{\\b',
+      openingRtf: '\\b',
       closing: '/strong',
-      closingRtf: '}'
+      closingRtf: '\\b0'
    },
    {
       opening: 'table',
@@ -169,9 +169,9 @@ module.exports = [
    },
    {
       opening: 'u',
-      openingRtf: '{\\ul',
+      openingRtf: '\\ul',
       closing: '/u',
-      closingRtf: '}'
+      closingRtf: '\\ul0'
    },
    {
       opening: 'ul',
